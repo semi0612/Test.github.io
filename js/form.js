@@ -27,21 +27,21 @@ function a() {
 
 // 자기수용/피드백
 function b() {
-    var num = Number($(":input:radio[name=anser_1]:checked").val());
+    var num = Number($(":input:radio[name=anser_2]:checked").val());
 
     result[0] += num;
 
-    console.log('선택한 값 : ' + $(":input:radio[name=anser_1]:checked").val());
+    console.log('선택한 값 : ' + $(":input:radio[name=anser_2]:checked").val());
     console.log('a 값 : ' + result);
 }
 
 // 자존감
 function c() {
-    var num = Number($(":input:radio[name=anser_1]:checked").val());
+    var num = Number($(":input:radio[name=anser_3]:checked").val());
 
     result[0] += num;
 
-    console.log('선택한 값 : ' + $(":input:radio[name=anser_1]:checked").val());
+    console.log('선택한 값 : ' + $(":input:radio[name=anser_3]:checked").val());
     console.log('a 값 : ' + result);
 }
 
@@ -78,4 +78,3 @@ $(function () {
         scrollTop: 0
     }, 500);
 });
-
