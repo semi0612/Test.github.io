@@ -29,7 +29,7 @@ function a() {
 function b() {
     var num = Number($(":input:radio[name=anser_2]:checked").val());
 
-    result[0] += num;
+    result[1] += num;
 
     console.log('선택한 값 : ' + $(":input:radio[name=anser_2]:checked").val());
     console.log('a 값 : ' + result);
@@ -39,7 +39,7 @@ function b() {
 function c() {
     var num = Number($(":input:radio[name=anser_3]:checked").val());
 
-    result[0] += num;
+    result[2] += num;
 
     console.log('선택한 값 : ' + $(":input:radio[name=anser_3]:checked").val());
     console.log('a 값 : ' + result);
