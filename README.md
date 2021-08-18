@@ -1,2 +1,0 @@
-# psytest.github.io
-test
